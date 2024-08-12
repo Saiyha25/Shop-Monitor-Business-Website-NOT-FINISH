@@ -1,0 +1,68 @@
+/*Category heading*/
+#headingblock{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#2a4d69;
+	font-size:22px;
+	margin-top:-30px;
+}
+#headingblock h2{
+	line-height:35px;
+	border-left:20px solid #2a4d69;
+	padding-left:10px;
+}
+/*Prodcuts styling*/
+.prob-box{
+	width:221px;
+	height:220px;
+	overflow:hidden;
+	margin-left:10px;
+	margin-bottom:20px;
+	margin-right:10px;
+	position:relative;
+	float:left;
+	border-radius:5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.prob-box img{
+	max-width:100%;
+}
+.prob-trans{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	position:absolute;
+	opacity:0;
+}
+.prob-box:hover .prob-trans{
+	opacity:1;
+	transition:all .5s ease;
+}
+.prob-feature{
+	text-align:center;
+	margin-top:-150px;
+	transition:all .5s ease;
+}
+.prob-feature p{
+	color:#adcbe3;
+	font-family:Courier new;
+}
+.prob-box:hover .prob-feature{
+	margin-top:60px;
+	transition:all .5s ease;
+}
+.prob-feature input{
+	width:100px;
+	height:35px;
+	font-size:15px;
+	border-radius:2px;
+	color:black;
+	font-weight:bold;
+	outline:none;
+	font-family:courier new;
+}	

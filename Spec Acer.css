@@ -1,0 +1,65 @@
+/*Category heading*/
+#headingblock{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#2a4d69;
+	font-size:22px;
+	margin-top:-35px;
+}
+#headingblock h2{
+	line-height:35px;
+	border-left:20px solid #2a4d69;
+	padding-left:10px;
+}
+/*Prodcuts styling*/
+.prob-box{
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	margin-left:10px;
+	margin-bottom:20px;
+	margin-right:10px;
+	position:relative;
+	float:right;
+	border-radius:5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.prob-box img{
+	max-width:100%;
+}
+.Spec p{
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Courier new;
+}
+.Buy {
+	border:100px;
+	text-decoration:none;
+	Text-align:Center;
+}
+.Buy input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: White;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+	font-family:Courier new;
+	font-weight:bold;
+}
+.Buy input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: black;
+	color:white;
+}
+.Buy input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+	
